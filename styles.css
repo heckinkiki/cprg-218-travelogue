@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color:blue;
+    margin-bottom: 0;;
+}
+
+h2 {
+    margin-top: 0%;
+}
+
+p {
+    margin-bottom: 0;
+    padding-bottom: 1em;
+}
+
+header {
+    background-color:antiquewhite;
+}
+
+#Turtle-Section {
+    background-color: aqua;
+}
+
+#Beach-Section {
+    background-color:cornflowerblue;
+}
+
+#Food-Section {
+    background-color: blue;
+}
