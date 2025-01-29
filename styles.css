@@ -1,7 +1,18 @@
-h1 {
+header h1 {
     text-align: center;
-    color:blue;
-    margin-bottom: 0;;
+    color:rgb(24, 67, 81);
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-block-start: 0.67em;
+    padding-block-end: 0.67em;
+    background-color: rgb(207, 205, 184);
+}
+
+footer {
+    padding-top: 0.67em;
+    background-color: rgb(207, 205, 184);
+    text-align: center;
+    color:rgb(24, 67, 81)
 }
 
 h2 {
@@ -9,22 +20,42 @@ h2 {
 }
 
 p {
+    margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 1em;
 }
 
-header {
-    background-color:antiquewhite;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8px;
 }
 
-#Turtle-Section {
-    background-color: aqua;
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-top: 0.67em;
+    padding: 0.67em;
+    max-width: 60%;
 }
 
-#Beach-Section {
-    background-color:cornflowerblue;
+main section h2 {
+    width: 100%;
 }
 
-#Food-Section {
-    background-color: blue;
+#Turtle-Section p img, #Food-Section p img {
+    float: left;
+    padding-right: 0.67em;
+}
+
+#Beach-Section p img {
+    float:right;
+    padding-left: 0.67em;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(rgb(127, 228, 223),rgb(24, 67, 81));
 }
